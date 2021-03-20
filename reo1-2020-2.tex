@@ -1,0 +1,95 @@
+\documentclass[a4paper,12pt]{article}
+%\usepackage[brazilian]{babel}
+\usepackage[table]{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd,graphicx} 
+\usepackage{indentfirst}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage[inline]{enumitem}
+\usepackage{multicol}
+\usepackage{hyperref}
+\usepackage{tcolorbox}
+\usepackage[top=1.4cm,left=1.5cm,right=1.5cm,bottom=2.5cm]{geometry}
+\usepackage{parskip}
+\usepackage{tikz}
+
+\newtcolorbox{mybox1}[1]{colback=red!5!white,colframe=red!75!black,fonttitle=\bfseries,title=#1}
+\newtcolorbox{mybox2}[1]{colback=blue!5!white,colframe=blue!75!black,fonttitle=\bfseries,title=#1}
+
+\newtheorem{theorem}{Teorema}[section]
+\newtheorem*{example}{Exemplo}
+\newtheorem*{examples}{Exemplos}
+
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\setlength{\parskip}{1em}
+
+\begin{document}
+	
+	\begin{center}
+		{\large \bf Universidade Federal de Lavras \\ GEX102 - Geometria Analítica e Álgebra Linear}
+		\vskip-.5cm
+		\noindent $\hrulefill$
+	\end{center}
+	\vskip.5cm
+	
+	{\Large \bf Orientações 1 - Matrizes e Operações. Sistemas Lineares.}
+	\vskip.5cm
+	
+	Estas orientações são para as duas primeiras semanas do curso. 
+	Na primeira semana, trabalharemos com o conteúdo de matrizes e operações.
+	Os seus objetivos são:
+	\begin{mybox2}{}
+	\begin{itemize}
+		\item aprender o que é uma matriz e entender as notações envolvendo elementos de matrizes. 
+		\item saber o nome de diferentes tipos de matrizes
+		(matriz nula, quadrada, triangular superior, inferior, diagonal);
+		\item ser capaz de construir matrizes através da definição de suas entradas; 
+		\item aprender a fazer as seguintes operações com matrizes (somar, subtrair, multiplicar,
+		multiplicar por escalar e transpor).
+		\item estudar as propriedades das operações; (estas irão aparecer durante as próximas sema\-nas.)
+		\vskip.5cm
+%		Em resumo, conhecer o que são matrizes e aprender a efetuar manualmente as operações
+%		entre elas.
+	\end{itemize} 
+	\end{mybox2}
+
+	Na semana seguinte, o conteúdo abordado será a relação de matrizes com sistemas lineares.
+	Aqui, seus objetivos serão:
+	
+	\begin{mybox2}{}
+	\begin{itemize}
+		\item saber o que é um sistema de equações lineares e como reescrevê-lo usando matrizes;
+		\item aprender a resolver um sistema de equações lineares na forma matricial usando
+		o método de escalanamento (método de Gauss) e o método de escalonamento reduzido (método
+		de Gauss-Jordan);
+	\end{itemize}
+	\end{mybox2}
+	O conteúdo você encontra no livro-texto{\footnote{SANTOS, Reginaldo J. Matrizes, Vetores e Geometria Analítica. Belo Horizonte,	MG: Imprensa Universitária da UFMG, 2007.
+	Acesse o pdf \href{https://www.dropbox.com/s/aa71ogpk8xski1j/gaalt1.pdf?m}{\bf \color{blue}aqui.}}}
+	do curso, nas seções 1.1, 1.1.1, 1.1.2, 1.2.1.
+	
+	Além disso, no campus virtual você encontrará o arquivo pdf do livro-texto 
+	(ou \href{https://www.dropbox.com/s/aa71ogpk8xski1j/gaalt1.pdf?m}{\bf \color{blue}clicando aqui}),
+	notas de aulas/slides dos
+	professores, vídeos indicados, vídeos gravados pelos professores do curso e listas de exercícios com gabarito. Além disso toda semana,
+	os professores e monitores estarão disponíveis para explicação do conteúdo e dúvidas 
+	(Consultar horários no Campus Virtual).
+	
+	Faremos uma transmissão ao vivo, na terça-feira (27/10) às 10horas pelo youtube (Link: 
+	\href{https://www.youtube.com/watch?v=w3ft57gfF60}{Live 1} ).
+	
+	\begin{mybox1}{{\bf Avaliações do conteúdo:}}
+	 Serão aplicados 2 questionários online: 
+	\begin{itemize}
+		\item revisão 1: questionário de revisão sobre matrizes e sistemas lineares; 
+		2 pontos; Infinitas chances;
+		\item Teste 1: avaliação do conteúdo das duas primeiras semanas; 8 pontos; 1 chance;
+	\end{itemize}
+	$^*$As datas estarão na descrição das atividades no Campus Virtual. Não necessariamente o período de início ou término das atividades corresponderá ao das semanas do conteúdo.
+
+	\end{mybox1}
+
+	
+\end{document}
